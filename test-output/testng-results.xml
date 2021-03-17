@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-16T23:51:00 EET" name="Default suite" finished-at="2021-03-16T23:51:19 EET" duration-ms="18344">
+    <groups>
+    </groups>
+    <test started-at="2021-03-16T23:51:00 EET" name="Default test" finished-at="2021-03-16T23:51:19 EET" duration-ms="18344">
+      <class name="testScenarios.ShopingCartTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:testScenarios.ShopingCartTest@4229bb3f]" started-at="2021-03-16T23:50:52 EET" name="StartDriver" finished-at="2021-03-16T23:51:00 EET" duration-ms="8255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="UserAddProductToCart()[pri:1, instance:testScenarios.ShopingCartTest@4229bb3f]" started-at="2021-03-16T23:51:00 EET" name="UserAddProductToCart" finished-at="2021-03-16T23:51:14 EET" duration-ms="13955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserAddProductToCart -->
+        <test-method signature="UpdateProductQuantity()[pri:0, instance:testScenarios.ShopingCartTest@4229bb3f]" started-at="2021-03-16T23:51:14 EET" name="UpdateProductQuantity" finished-at="2021-03-16T23:51:16 EET" depends-on-methods="testScenarios.ShopingCartTest.UserAddProductToCart" duration-ms="2209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProductQuantity -->
+        <test-method signature="UserRemoveProductFromCart()[pri:0, instance:testScenarios.ShopingCartTest@4229bb3f]" started-at="2021-03-16T23:51:16 EET" name="UserRemoveProductFromCart" finished-at="2021-03-16T23:51:19 EET" depends-on-methods="testScenarios.ShopingCartTest.UpdateProductQuantity" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRemoveProductFromCart -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:testScenarios.ShopingCartTest@4229bb3f]" started-at="2021-03-16T23:51:19 EET" name="StopDriver" finished-at="2021-03-16T23:51:19 EET" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- testScenarios.ShopingCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
